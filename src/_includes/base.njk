@@ -4,11 +4,17 @@
   <title>{{ title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ content | truncate(100) }}" />
 </head>
 <body>
 
 <main>
-<b>{{ title }}</b> | <a href="{{ '/' | url }}">home</a> / <a href="{{ '/blog' | url }}">blog</a>
+<nav>
+  <b>{{ title }}</b> | <a href="{{ '/' | url }}">home</a> / <a href="{{ '/blog' | url }}">blog</a>
+</nav>
 <hr />
 
 {{ content | safe }}
