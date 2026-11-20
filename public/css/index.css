@@ -1,0 +1,26 @@
+html, body {
+  background: #000; color: #fff;
+  margin: 8px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 700px;
+}
+
+a { color: rgb(0, 81, 255); }
+a:visited { color: rgb(109, 52, 214); }
+
+table { border-collapse: collapse; }
+th, td { border: 1px solid #242424; }
+
+
+/* codeblocks */
+pre, code { background: #111; }
+pre { padding: 5px; }
