@@ -1,7 +1,13 @@
 html, body {
-  background: #000; color: #fff;
   margin: 8px;
 }
+
+@media (prefers-color-scheme: dark) {
+html, body {
+  background: #000; color: #fff;
+}
+}
+
 
 body {
   display: flex;
@@ -18,9 +24,14 @@ a { color: rgb(0, 81, 255); }
 a:visited { color: rgb(109, 52, 214); }
 
 table { border-collapse: collapse; }
-th, td { border: 1px solid #242424; }
+th, td {
+  border: 1px solid #242424;
+  padding: 5px;
+}
 
 
 /* codeblocks */
-pre, code { background: #111; }
 pre { padding: 5px; }
+pre, code {
+  background: #111; color: #fff;
+}
