@@ -17,7 +17,7 @@ body {
 
 main {
   width: 100%;
-  max-width: 700px;
+  max-width: 750px;
 }
 
 a { color: rgb(0, 81, 255); }
@@ -29,10 +29,3 @@ th, td {
   padding: 5px;
 }
 
-
-/* codeblocks */
-pre { padding: 5px; }
-pre, code {
-  background: #111; color: #fff;
-  text-wrap: inherit;
-}
