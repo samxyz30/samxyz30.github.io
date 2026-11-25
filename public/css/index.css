@@ -34,4 +34,5 @@ th, td {
 pre { padding: 5px; }
 pre, code {
   background: #111; color: #fff;
+  text-wrap: inherit;
 }
